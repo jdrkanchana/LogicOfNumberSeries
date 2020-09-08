@@ -19,8 +19,6 @@ length_array_size=len(len_arr)
 
 print(fin_arr)
 #print(len_arr)
-#print(mul_arr)
-#print(maximum)
 #print(max_length)
 #print(length_array_size)
-#print(len(mul_arr))
+
