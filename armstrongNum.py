@@ -12,7 +12,7 @@ while (a%10!=0):
     sum=sum+(y**3)
     print(sum)
 if (sum==num):
-    print(num,'is a palindrome number')
+    print(num,'is an armstrong number')
 else:
-    print(num, 'is not a palindrome number')
+    print(num, 'is not an armstrong number')
     print('The summation of cube of',num 'is', sum)
