@@ -1,0 +1,37 @@
+nine_count=0
+eight_count=0
+seven_count=0
+six_count=0
+five_count=0
+four_count=0
+three_count=0
+two_count=0
+one_count=0
+mul=3628800
+for x in range(11,101):
+	mul=mul*x
+	if(x==100):
+		print(mul)
+		word=str(mul)
+for char in word:
+	if(char!='0'):
+		if(char=='9'):
+			nine_count=nine_count+1
+		elif(char=='8'):
+			 eight_count=eight_count+1
+		elif(char=='7'):
+			 seven_count=seven_count+1
+		elif(char=='6'):
+			 six_count=six_count+1
+		elif(char=='5'):
+			 five_count=five_count+1
+		elif(char=='4'):
+			 four_count=four_count+1
+		elif(char=='3'):
+			 three_count=three_count+1
+		elif(char=='2'):
+			 two_count=two_count+1
+		elif(char=='1'):
+			 one_count=one_count+1
+sum=(nine_count*9)+(eight_count*8)+(seven_count*7)+(six_count*6)+(five_count*5)+(four_count*4)+(three_count*3)+(two_count*2)+one_count
+print(sum)
